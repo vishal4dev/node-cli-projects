@@ -1,0 +1,27 @@
+{
+  "name": "my-node-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple CLI tool",
+  "main": "bin/index.js",
+  "bin": {
+    "my-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "author": "vishal4dev",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^12.1.0",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.3.0",
+    "ora": "^8.1.1"
+  }
+}
+
+
+
+
+
